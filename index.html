@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/80133de64f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- nav bar  -->
+            <nav class="navbar navbar-expand-lg bg-body-white mt-3 mb-3">
+             <div class="container-fluid d-flex justify-content-between">
+                    <div>
+                        <a class="navbar-brand" href="#">Abacus Convention Center</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- nav bar  -->
+            <section class="mb-5">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/banner.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="h1">The perfect venue for your<br>
+                                    next event</h5>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do<br> amet sint. Velit
+                                    officia consequat duis enim velit </p>
+                                <button class="btn bg-white text-dark">Book Now</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </header>
+    <main class="container ">
+        <!-- album section -->
+        <section class="row row-cols-md-2">
+            <div>
+                <img class="img-fluid" src="./images/wedding.png" alt="">
+            </div>
+            <div class="d-flex align-items-start justify-content-center flex-column " style="height: 350px;">
+                <h1 class="h1">Every moment is Precious </h1>
+                <p class="text-mute">Amet minim mollit non deserunt ullamco est sit aliqua dolor<br> do amet sint. Velit
+                    officia consequat duis enim velit mollit.<br> Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="btn bg-primary text-white">Explore More Albume </button>
+            </div>
+        </section>
+        <!-- album section -->
+
+        <!-- pacage section -->
+        <h1 class="text-center h1 mt-5 mb-5">Our Package</h1>
+        <section class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-2 pb-5 align-items-center justify-content-center">
+            
+            <div class="border rounded p-3 m-2 col " style="width: 300px; height: 450px;">
+                <h1 class="h1">$300</h1>
+                <h2 class="h2">Business Fare</h2>
+                <p class="mb-3 fs-6 text-muted lh-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat,
+                    atque.</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i
+                            class="fa-solid fa-check"></i></span>Limited Spaces Access </p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i
+                            class="fa-solid fa-check"></i></span>Secuirty Facility</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i class="fa-solid fa-check"></i></span>event
+                    support</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i
+                            class="fa-solid fa-check"></i></span>Decoration design</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i class="fa-solid fa-check"></i></span>Per
+                    day bill</p>
+                <button class="btn bg-primary text-white w-100 border">Shoose Plan</button>
+            </div>
+            <div class="border rounded p-3 m-2 col" style="width: 300px; height: 450px;">
+                <h1 class="h1">$300</h1>
+                <h2 class="h2">Business Fare</h2>
+                <p class="mb-3 fs-6 text-muted lh-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat,
+                    atque.</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i
+                            class="fa-solid fa-check"></i></span>Limited Spaces Access </p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i
+                            class="fa-solid fa-check"></i></span>Secuirty Facility</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i class="fa-solid fa-check"></i></span>event
+                    support</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i
+                            class="fa-solid fa-check"></i></span>Decoration design</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i class="fa-solid fa-check"></i></span>Per
+                    day bill</p>
+                <button class="btn bg-primary text-white w-100 border">Shoose Plan</button>
+            </div>
+            <div class="border rounded p-3 m-2 col bg-primary text-light position-relative" style="width: 300px; height: 450px;">
+                <span class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-warning p-2 fs-5">
+                   Hot
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                <h1 class="h1">$800</h1>
+                <h2 class="h2">Weading Pluse</h2>
+                <p class="mb-3 fs-6 text-light lh-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat,
+                    atque.</p>
+                <p class="fs-6 text-light"> <span class="text-light me-2"><i
+                            class="fa-solid fa-check"></i></span>Limited Spaces Access </p>
+                <p class="fs-6 text-light"> <span class="text-light me-2"><i
+                            class="fa-solid fa-check"></i></span>Secuirty Facility</p>
+                <p class="fs-6 text-light"> <span class="text-light me-2"><i class="fa-solid fa-check"></i></span>event
+                    support</p>
+                <p class="fs-6 text-light"> <span class="text-light me-2"><i
+                            class="fa-solid fa-check"></i></span>Decoration design</p>
+                <p class="fs-6 text-light"> <span class="text-light me-2"><i class="fa-solid fa-check"></i></span>Per
+                    day bill</p>
+                <button class="btn bg-light fw-bold text-primary w-100 border">Shoose Plan</button>
+            </div>
+            <div class="border p-3 m-2 col" style="width: 300px; height: 450px;">
+                <h1 class="h1">$1200</h1>
+                <h2 class="h3">Corporate Event</h2>
+                <p class="mb-3 fs-6 text-muted lh-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat,
+                    atque.</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i
+                            class="fa-solid fa-check"></i></span>Limited Spaces Access </p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i
+                            class="fa-solid fa-check"></i></span>Secuirty Facility</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i class="fa-solid fa-check"></i></span>event
+                    support</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i
+                            class="fa-solid fa-check"></i></span>Decoration design</p>
+                <p class="fs-6 text-muted"> <span class="text-muted me-2"><i class="fa-solid fa-check"></i></span>Per
+                    day bill</p>
+                <button class="btn bg-primary text-white w-100 border">Shoose Plan</button>
+            </div>
+        </section>
+        <!-- pacage section -->
+        <!-- Happy Cliens section  -->
+        <h1 class="text-center h1 fw-5 mt-3 mb-5">Happy Clients Says</h1>
+        <section class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gap-5 mb-5 justify-content-center">
+            
+            <div class="col text-center rounded shadow p-3 " style="width: 350px; height: 320px;">
+                <p class="text-muted ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, unde iusto. 
+                    Consequuntur nisi rerum natus. Ipsum perspiciatis placeat voluptatibus magni v
+                </p>
+                <img class="img-fluid " src="./images/person 1.png" alt="" >
+                <h3 class="h5 mt-3"> John Doe</h3>
+                <p class="text-muted">banker</p>
+            </div>
+            <div class="col text-center rounded shadow p-3 " style="width: 350px; height: 320px;">
+                <p class="text-muted ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, unde iusto. 
+                    Consequuntur nisi rerum natus. Ipsum perspiciatis placeat voluptatibus magni v
+                </p>
+                <img class="img-fluid " src="./images/person 2.png" alt="" >
+                <h3 class="h5 mt-3"> John Doe</h3>
+                <p class="text-muted">banker</p>
+            </div>
+            <div class="col text-center rounded shadow p-3 " style="width: 350px; height: 320px;">
+                <p class="text-muted ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, unde iusto. 
+                    Consequuntur nisi rerum natus. Ipsum perspiciatis placeat voluptatibus magni v
+                </p>
+                <img class="img-fluid " src="./images/person 3.png" alt="" >
+                <h3 class="h5 mt-3"> John Doe</h3>
+                <p class="text-muted">banker</p>
+            </div>
+
+        </section>
+        <!-- Happy Cliens section  -->
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
